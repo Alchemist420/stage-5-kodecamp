@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.first{
+    margin-top: 13%;
+    padding-left: 4rem;
+}
+
+.pix{
+    height: 400px;
+    width: 400px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.car-section{
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 760px){
+    .first{
+        padding-left: 0 !important;
+    }
+
+    .pix{
+        height: 200px;
+        width: 200px;
+        margin-bottom: 10px;
+    }
+
+    .write{
+        padding: 0 !important;
+    }
+
+    .sweg{
+        flex-direction: column;
+    }
+}
